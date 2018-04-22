@@ -1,0 +1,339 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+.wrapper {
+max-width: 100%;
+margin: 0 auto;
+border: 8px solid #9FABB6;
+display: flex;
+flex-direction: column;
+overflow: hidden;
+}
+.navbar-container {
+    width: 100%;
+    /* height:6rem; */
+    /* position: fixed; */
+    background-color: white;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+.logo img {
+    padding: 20px;
+    width: 108px;
+    height: 50px;
+}
+.menu {
+    display: flex;
+    align-items: center;
+}
+.menu ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    margin-left: 400px;
+}
+.menu li {
+    padding: 20px;
+    margin-left: 20px;
+    color:#9FABB6;
+}
+.toggle-nav {
+    display:none;
+}
+.menu li:last-child {
+    margin-right:0px;
+}
+.menu a:hover, .menu .current-item a {
+    text-decoration:none;
+    color:#E7D351;
+}
+.intro h1 {
+        color: #222222;
+        line-height: 4rem;
+        padding-left: 34rem;
+        margin-top: -100px;
+        width: 700px;
+        height: 180px;
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 2;
+        color: #222222;
+}
+.header {
+    width: 100%;
+    min-height: 45rem;
+    /* background-color: antiquewhite; */
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+}
+.middle {
+    width: 100%;
+    min-height: 45rem;
+    /* background-color: #9FABB6; */
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+}
+.about {
+    color: #E7D351;
+    opacity: 0.2;
+    margin-top: -5rem;
+    margin-left: -5rem;
+    width: 970px;
+    height: 366px;
+    object-fit: contain;
+    font-family: sans-serif;
+    font-size: 300px;
+}
+section {
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    width: 82rem;
+}
+.passion{
+    color: #222222;
+    margin-left: 4rem;
+    margin-top: -16rem;
+    max-width: 50rem;
+    width: 657px;
+    height: 360px;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 2;
+    color: #444444;
+}
+.image img {
+    max-width: 400px;
+}
+.contact ul, .contact li {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: #9FABB6;
+    padding: 10px 16px;
+    align-items: center;
+}
+.contact ul li img {
+    max-width: 20px;
+}
+.work {
+    width: 100%;
+    min-height: 45rem;
+    /* background-color: antiquewhite; */
+    display: flex;
+    flex-direction: column;
+    /* -ms-flex-pack: center;
+    /* justify-content: center; */
+    /* -webkit-box-align: center; */
+    align-items: center;
+}
+.work h2 {
+    font-size: 300px;
+    color: #E7D351;
+    opacity: 0.2;
+    margin-top: -2rem; 
+    margin-left: 40rem;
+    margin-bottom: 0;
+    font-family: sans-serif;
+}
+/* .row {
+    margin-left: -1200px;
+} */
+.col div {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0px;
+    align-content: center;
+}
+#yellow {
+    width: 600px;
+    height: 400px;
+    background-color: #E7D351;
+    text-align: center;
+}
+#blue {
+    width: 600px;
+    height: 400px;
+    background-color: #9FABB6;
+    text-align: center;
+}
+.description {
+    width: 127px;
+    height: 15px;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 20px;
+    color: white;
+}
+.iPhone {
+    width: 182px;
+    height: 375px;
+    margin: auto;
+}
+.mac {
+    width: 349px;
+    height: 200px;
+    margin: auto;
+}
+.col a:hover {
+    opacity: 0.6;
+}
+@media screen and (max-width: 1200px) {
+    .menu {
+    position:relative;
+    display:inline-block;
+}
+.menu ul.active {
+    display:none;
+}
+.menu ul {
+    width:100%;
+    position:absolute;
+    top:70%;
+    left:0px;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-align: center;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(231, 211, 81, 0.562);
+    border-radius: 4px;
+    margin-left: 0;
+}
+.menu ul:after {
+    width:0px;
+    height:0px;
+    position:absolute;
+    top:0%;
+    left:2px;
+}
+.menu li {
+    padding: 8px;
+    margin-left: 0px;
+    float:none;
+    display:list-item;
+}
+.menu a {
+    display:block;
+}
+.toggle-nav {
+    margin-top: 22px;
+    margin-left: 100px;
+    padding:10px;
+    float: right;
+    box-shadow:0px 1px 1px rgba(0,0,0,0.15);
+    border-radius:3px;
+    background: #9FABB6;
+    color:#777;
+    font-size:20px;
+    transition:color linear 0.15s;
+}
+.toggle-nav:hover, .toggle-nav.active {
+    text-decoration:none;
+}
+.header {
+    min-height: 40rem;
+}
+.intro h1 {
+    font-size: 20px;
+    padding-left: 2rem;
+    line-height: 3rem;
+    max-width: 300px;
+}
+section {
+    min-height: 25rem;
+}
+.about{
+    font-size: 100px;
+    margin-top: 0.5px;
+    padding-left: 34rem;
+}
+.passion {
+    font-size: 20px;
+    margin-left: 32rem;
+    margin-top: -250px;
+    line-height: 2rem;
+    max-width: 300px;
+}
+.image img {
+    max-width: 300px;
+    margin-left: 32rem;
+}
+.work h2{
+    margin-left: 10rem;
+    font-size: 80px;
+    margin-top: 0.5px;
+}
+.col div {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+    align-content: center;
+    max-width: 335px;
+    margin-bottom: 4px;
+    border-radius: 4px;
+}
+ div .row {
+    margin-bottom: 0px;
+}
+.iPhone {
+    width: 91px;
+    height: 187px;
+    margin: auto;
+}
+.mac {
+    width: 175px;
+    height: 100px;
+    margin: auto;
+}
+.description {
+    width: 127px;
+    height: 15px;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: left;
+    color: white;
+    margin-left: 1rem;
+    margin-top: -2rem;
+    margin-bottom: 1rem;
+}
+
+.contact li a img, .contact li{
+    padding: 10px;
+    max-width: 10px;
+}
+.contact ul li{
+    height: 6px;
+}
+}
