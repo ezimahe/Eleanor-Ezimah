@@ -16,8 +16,6 @@ overflow: hidden;
 }
 .navbar-container {
     width: 100%;
-    /* height:6rem; */
-    /* position: fixed; */
     background-color: white;
     top: 0;
     display: flex;
@@ -78,7 +76,6 @@ overflow: hidden;
 .header {
     width: 100%;
     min-height: 45rem;
-    /* background-color: antiquewhite; */
     display: flex;
     -ms-flex-pack: center;
     justify-content: center;
@@ -88,7 +85,6 @@ overflow: hidden;
 .middle {
     width: 100%;
     min-height: 45rem;
-    /* background-color: #9FABB6; */
     display: flex;
     -ms-flex-pack: center;
     justify-content: center;
@@ -147,12 +143,8 @@ section {
 .work {
     width: 100%;
     min-height: 45rem;
-    /* background-color: antiquewhite; */
     display: flex;
     flex-direction: column;
-    /* -ms-flex-pack: center;
-    /* justify-content: center; */
-    /* -webkit-box-align: center; */
     align-items: center;
 }
 .work h2 {
@@ -164,9 +156,6 @@ section {
     margin-bottom: 0;
     font-family: sans-serif;
 }
-/* .row {
-    margin-left: -1200px;
-} */
 .col div {
     display: flex;
     flex-direction: row;
