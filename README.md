@@ -1,4 +1,4 @@
 # Eleanor-Ezimah
 Personal Portfolio Website
 
-eleanorezimah.com
+www.eleanorezimah.com
